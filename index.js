@@ -4,5 +4,5 @@
     var newObj = Object.assign({}, object)
      newObj[`${key}`] = val
       obj[`${key}`] = val
-      return return
+      return obj
   }
