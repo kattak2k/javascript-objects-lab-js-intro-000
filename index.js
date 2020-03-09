@@ -16,4 +16,3 @@
      newObj[`${key}`] = value
      return newObj
   }
-
