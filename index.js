@@ -3,5 +3,5 @@
   function updateObjectWithKeyAndValue(object, key, value){
     var newObj = Object.assign({}, object)
      newObj[`${key}`] = value
-     return object
+     return object[`${key}`] = value
   }
